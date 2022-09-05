@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="imagem/proauto-logo-3CD97263F2-seeklogo.com.png" type="image/x-icon" />
+
+    <title>PROAUTO | Login</title>
+   
+    <!-- Stylesheets -->
+    <link href="css/style.css" rel="stylesheet"/>
+<link href="bootstrap-5.1.3-dist/css/bootstrap.css" rel="stylesheet"/>
+
+
+
+    
+<script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <div class="container-banners"  >
+        <img src="imagem/associado.png"
+             alt="pag" />
+    </div>
+    <div class="formulario-acesso text-white">
+       
+
+  
+        <form action="/proauto/" id="frmLogin" method="post"><input name="__RequestVerificationToken" type="hidden" value="Yc1Wvot05UxMnfsyQ9Lm_E1vIGntv5q1e04EOjROCWb9ex29my4C5eWv0yQhjXqYUDGvF2bEd-LWCEfx_JfXfORCUn6QppOsa0a3rLWCxjE1" />    
+    <img class="logo" src="imagem/proauto-logo-3CD97263F2-seeklogo.com.png" />
+            <h1>Área do Associado</h1>
+            <label for="cpf_cnpj"></label>
+<label class="control-label sr-only" for="email">CPF / Email</label><input class="form-control text-box single-line" data-val="true" data-val-required="O campo CPF / CNPJ é de preenchimento obrigatório" id="CpfCnpj" name="CpfCnpj" onkeypress="return isNumberKey(event)" placeholder="CPF / CNPJ" type="text" value="" /><span class="field-validation-valid text-danger" data-valmsg-for="CpfCnpj" data-valmsg-replace="true" id="msgerro2"></span>            <label for="placa_senha">Placa ou Senha</label>
+<label class="control-label sr-only" for="Senha">Senha</label><input class="form-control text-box single-line" data-val="true" data-val-required="O campo Senha é de preenchimento obrigatório" id="Senha" name="Senha" placeholder="Placa ou Senha" type="password" value="" /><span class="field-validation-valid text-danger" data-valmsg-for="Senha" data-valmsg-replace="true" id="msgerro1"></span>            <a class="esqueci_senha" href="javascript: window.location.href ='/LPL/AreaAssociado/RecuperaSenha' + '?CpfCnpj=' + document.getElementById('CpfCnpj').value">Esqueci minha senha</a>
+            <div class="lembrar_senha">
+                <label class="checkbox">
+                    <input type="checkbox" name="lembrar_senha" /> Lembrar minha senha
+                </label>
+            </div>
+<button type='submit'one class='botao_acao'  >Entrar </button></form>        <div class="versao">
+            <small>Versão 2.41</small>
+            <small>© 2021 PROAUTO. Todos os direitos reservados.</small>
+            <div class="redes_sociais">
+                <a target="_blank" href="https://pt.linkedin.com/company/proautoprotecao">
+                    <i class="fab fa-linkedin" title="Linkedin PROAUTO"></i>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/proautoprotecao/?hl=pt-br">
+                    <i class="fab fa-instagram" title="Instagram PROAUTO"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+ 
+
+<!--javascript-->
+ 
+   
+ 
+ <source src="js/login.js" type="">
+ <script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-app-compat"></script>
+ <script src="https://www.gstatic.com/firebasejs/9.9.4/firebase-auth-compat"></script>
+ 
+
+
+ 
+</body>
+</html>
